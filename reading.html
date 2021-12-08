@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Visual Notebook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .reading-title {
+            font-family: 'Jomhuria', sans-serif;
+            font-size: 6vw;
+            padding-right: 2vw;
+            padding-left: 0;
+            font-weight:400;
+            border-bottom: .05vw solid white;
+            margin-bottom: 5vh;
+            margin-left: 1.2vw;
+            line-height: .7em;
+            width: 90%;
+        }
+
+        .quote {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: calc(2vw + 1.75vh + 1vmin);
+            font-style: italic;
+            font-weight: 700;
+            line-height: 1.1em;
+        } 
+
+        h1 {
+            padding-top: 7vh;
+            padding-bottom: 7vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: calc(2vw + 1.5vh + 1vmin);
+
+        }
+
+        h3 {
+            font-size: calc(1.25vw + 1vh + 1vmin);
+            font-weight: 700;
+            display: inline-block;
+            padding-left: .2vw;
+            padding-right: 4vw;
+        }
+
+        h4 {
+            font-size: calc(1.25vw + 1vh + 1vmin);
+            font-weight: 700;
+            display: inline-block;
+            padding-left: .2vw;
+            padding-right: 4vw;
+            padding-bottom: 1.75vh;
+            margin-bottom: 2vh;
+        }
+
+        h6 {
+            font-size: calc(1.1vw + 1vh + 1vmin);
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 1.5vh;
+            padding-top: 2.5vh;
+        }
+
+        .truth{
+            line-height: 4vh; 
+            font-size: calc(.8vw + .8vh + 1vmin);
+            padding-top: 1.25vh;
+            padding-right: 5vw;
+        }
+
+        .img-fluid {
+            padding-bottom: 7vh;
+        }
+
+        #movie{
+            display: flex; 
+            align-self: flex-end; 
+            padding-bottom: 3.8vh; 
+            padding-left: 13vw;
+        }
+
+        #movie a {
+            padding-right: 10vw;
+        }
+
+    </style>
+</head>
+    
+<!-- to use color bars: add the class "shinee" or "tina" to a <p> tag
+    e.g: <p class="shinee">
+-->
+
+<body>
+    <a href="index.html"><span id="title">Visual Notebook</span></a><br>
+    <span id="subt">Visual Culture Seminar / 2021</span>
+    <nav>
+        <a href="reading.html" class="current">Reading</a>
+        <a href="lecture.html">Lecture</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row" id="first-row">
+            <span class="reading-title">Self-Reliance</span>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="Images/Reading/1.jpg">
+            </div>
+            <div class="col-sm-4">
+                <p><h4>On Seeing</h4><a href="https://designobserver.com/feature/on-seeing/40307"><em>LINK</em></a></p>
+                <p class="quote">Our capacity to shift perspective and see anew.</p>
+                <p class="shinee"></p>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="Images/Reading/2.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p><h4>Generating</h4><a href="https://designobserver.com/feature/generating/40226"><em>LINK</em></a></p>
+                <p class="quote" style="width: 27vw;">The studio is a sanctuary for the imagination.</p>
+                <p class="shinee"></p>
+                <p class="tina"></p>
+            </div>
+            <span class="reading-title" style="padding-top: 4vh;">Manifesto</span>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="Images/Reading/3.jpg">
+            </div>
+            <div class="col-sm-6">
+                <p><h4>Manifestos: A Manifesto</h4><br>
+                <a href="https://www.theatlantic.com/entertainment/archive/2014/06/manifestos-a-manifesto-the-10-things-all-manifestos-need/372135/"><em>LINK</em></a>
+                </p>
+                
+                <p class="quote">Everyone needs a blow-your-mind manifesto. It’s just... necessary. And sexy.</p>
+                <p class="shinee"></p>
+            </div>
+            <img class="img-fluid" src="Images/Reading/4.jpg">
+            <a class="text-center" href="https://d2w9rnfcy7mm78.cloudfront.net/12912874/original_28eb52d134219c66a9a0aa794d7a4ee8.png?1629592523?bc=0"><em>LINK</em></a></p>
+            <p class="text-center" style="padding-left: 20.8vw; padding-right: 20.8vw; line-height: 4vh; font-size: calc(.5vw + .5vh + 1vmin)">
+                We think that there are other things more worth using our skills and experience on. 
+                <br>We promote our trade, our education, our culture and our greater awareness of the world. 
+                <br>We do not advocate the abolition of high pressure consumer advertising: this is not feasible. 
+                <br>Nor do we want to take any of the fun out of life. But we are proposing reversal of priorities in favour of the more useful and more lasting forms of communication. </p>
+                <p class="shinee text-center" style="margin-left:40vw;"></p>
+                <p class="tina text-center" style="margin-right:20.8vw;"></p>
+            <div class="col-sm-12 text-center">
+            <img class="img-fluid" style="padding-top: 12vh; padding-bottom: 2vh;" src="Images/Reading/5.jpg">
+            <p><a href="https://www.imdb.com/title/tt4511200/" style="font-size: calc(1vw + 1vh + 1vmin)"><em>Movie</em></a></p>
+            <p><a href="https://www.julianrosefeldt.com/film-and-video-works/manifesto-_2014-2015/" style="font-size: calc(1vw + 1vh + 1vmin);"><em>Website</em></a></p>
+        </div>
+        </div>
+        <div class="row" style="padding-top: 10vh;">
+            <div class="col-sm-6">
+                <img class="img-fluid" src="Images/Reading/6.jpg">
+                <h3>Art requires truth, not sincerity</h3>
+                <p class="text-left truth">Abandon love, abandon Aestheticism, abandon the baggage of wisdom, for in the new culture, your wisdom is ridiculous and insignificant. Only dull and important artists fail their work with sincerity. Art requires truth, not sincerity.</p>
+                <p class="shinee"></p><p class="tina"></p>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="Images/Reading/7.jpg">
+                <h3>We are forever making new discoveries</h3>
+                <p class="text-left truth">What we discover must not be concealed. It is absurd to force our age into the forms of a bygone age. Life must be purified of the clutter of the past so that it can be brought to its normal evolution.</p>
+                <p class="shinee"></p><p class="tina"></p>
+            </div>
+        </div>
+    <div class="row">
+    <div class="col-sm-8 offset-sm-2 text-center">
+        <h1 style="padding-top:18vh;"><em>Nothing is original</em></h1>
+        <h6>We want to leave nature and man alone</h6>
+        <p class="text-center" style="font-size: calc(.8vw + .8vh + 1vmin); padding: 1vh 9vw 0 9vw; line-height: 1.2em;">We need the unconsciousness of humanity, their stupidity, their animalism, and of course, their dreams. The art instinct is permanently primitive.
+        </p><p class="shinee"></p>
+        <h6>All current art is fake</h6><p class="text-center" style="font-size: calc(.8vw + .8vh + 1vmin)">Not because it is copy, appropriation, simulacra, or imitation, but because it lacks the crucial push of power, guts, and passion.
+        </p><p class="shinee"></p>
+    </div>
+    <h1 class="text-left reading-title" style="padding-top:15vh; padding-bottom: 1vh;">Queer Typography</h1>
+    <div class="col-sm-12 text-center">
+        <img class="img-fluid" src="Images/Reading/8.jpg">
+        <a style="display: block; margin-bottom: 7vh;" href="https://soulellis.com/writing/tdc2021/"><em>LINK</em></a>
+        <img class="img-fluid" src="Images/Reading/9.jpg">
+        <p style="font-size: calc(.6vw + .6vh + 1vmin); padding: 2vh 27vw 2vh 27vw;">At the core of typography, as it’s been taught and practiced for centuries—is control, precision, preservation of standards, the idea of perfect legibility, and the myth of the lone type designer as genius author.<p class="tina" style="margin-bottom:5vh;"></p></p>
+        <img class="img-fluid" src="Images/Reading/10.jpg">
+    </div>
+    <div class="col-sm-6" style="padding-left: 15vw;">
+        <img class="img-fluid" src="Images/Reading/11.jpg">
+    </div>
+    <div class="col-sm-6">
+        <img class="img-fluid" src="Images/Reading/12.jpg">
+    </div>
+    <p class="text-center" style="font-size: calc(.8vw + .8vh + 1vmin); padding: 1vh 24vw 0 24vw;">Focusing on the people and communities where good trouble emerges. Those who perform deviant acts of design in the face of conformity.
+        <p class="shinee" style="margin-left: 40vw;"><p class="tina"></p></p></p>
+        <h1 class="text-left reading-title" style="padding-top:15vh; padding-bottom: 1vh;">Cyberfeminism Index</h1>
+        <img class="img-fluid" style="padding-top: 5vh; padding-bottom: 1.5vh; width: 90%;"src="Images/Reading/13.jpg">
+        <a class="text-center" style="margin-bottom: 6vh;" href="https://walkerart.org/magazine/sharing-as-survival-mindy-seu-cyberfeminism-index"><em>Website</em></a>
+    </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>

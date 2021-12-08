@@ -1,0 +1,204 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    overflow-x: hidden;
+    margin-top: 0%;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Jomhuria', sans-serif;
+}
+/*Visual Notebook Title*/
+#title {
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    display: inline-block;
+    padding-top: 9vh;
+    font-size: 150px; 
+    font-family: 'Jomhuria', sans-serif;
+    line-height: 87px;
+    color: white;
+    position:fixed;
+}
+
+/*Visual Culture Seminar / 2021*/
+#subt {
+    display: inline;
+    margin-left: .25%;
+    margin-top: 7%;
+    font-size: 24px;
+    line-height: 32px;
+    opacity: 75%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+}
+
+/*Nav Bar Styling*/
+nav {
+    text-align: right;
+    padding-left: 72.3%;
+    margin-top: 7%;
+    margin-right: 5%;
+    position:fixed;
+}
+
+nav a{
+    text-decoration: none; /* no underline */
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    font-style: oblique;
+    color: white;
+}
+
+.current {
+    font-weight: bold;
+    color: white;
+    font-style: oblique;
+}
+
+
+#first-row {
+    margin-top: 19%;
+}
+
+#name {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display:block;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#portrait {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#portrait img {
+    margin-left: -1%;
+}
+
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1.25vw + 1.25vh + 2vmin);
+    line-height: 1.5em;
+    margin-right: 30vw;
+    
+}
+
+#about a {
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
+    opacity: 50%;
+    color: lightgray; 
+}
+
+#about a:hover {
+    color: white;
+    opacity: 100%;
+}
+
+#about .name {
+    font-family: 'Jomhuria', sans-serif;
+    font-size: calc(2vw + 2vh + 2vmin);
+}
+
+.img-fluid {
+    padding: 10px;
+}
+
+.container-fluid a {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 1540px){
+    .title {
+        position: sticky;
+        display: inline-block;
+    }
+
+    nav {
+        position: fixed;
+        display: inline-block;
+    }
+
+    nav a {
+        font-size: calc(.5vw + .5vh + 1vmin)
+    }
+
+    #title {
+        position: fixed;
+        display: inline-block;
+        font-size: calc(5vw + 4vh + 3vmin);
+    }
+
+    #subt {
+        margin-top: 1%;
+        position: fixed;
+        display: inline-block;
+        font-size: calc(.5vw + .5vh + 1vmin)
+    }
+
+}
+
+@media (max-width: 1200px) {
+    #portrait {
+        display: inline-block;
+        padding-top: 12.5vh;
+    }
+
+    #first-row {
+        padding-top: 10vh;
+    }
+}
+.shinee {
+    width: 6vw;
+    display: inline-block;
+    margin-right: .8vw;
+    margin-left: .1vw;
+    margin-top: 1vh;
+    border-bottom: .6vh solid #ff9900;
+}
+
+.tina {
+    width: 6vw;
+    display: inline-block;
+    border-bottom: .6vh solid #b31fd8;
+}
+/* color_codes: 
+#ff9900 - orange
+#b31fd8 - purple
+*/
+
+h4 {
+    font-size: calc(1vw + 1vh + 1vmin);
+    font-weight: 700;
+    display: inline-block;
+    padding-right: 4vw;
+    padding-bottom: 0;
+    margin-bottom: 1.5vh;
+}
+
+.quote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(2vw + 1.75vh + 1vmin);
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.1em;
+}
